@@ -1,0 +1,80 @@
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+p.ridge { 
+   position: absolute; 
+   bottom: -250px; 
+   right: 500px; 
+   width: 100%; 
+}
+
+p.ridge {
+    width: 850px;
+    border: 1px white;
+    padding: 20px;
+    margin: 20px;
+}
+
+p.ridge {
+    width: 850px;
+    border: 1px white;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+p.ridge {
+    color: white;
+}
+
+p.ridge {
+    color: white;	
+}
+
+p.ridge {border-style: ridge;}
+
+p.ridge {
+    font-size: 20px;
+}
+
+p.ridge {
+    font-family:Verdana,sans-serif;
+}
+
+banner {
+    background:url('http://i.imgur.com/Cx30CwD.jpg" alt="Me" width="2500" height="200  ');
+    width:100%;
+    min-height:189px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+} 
+
+add {
+ padding:10;
+ margin:10;
+}
