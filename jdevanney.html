@@ -5,7 +5,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -22,6 +22,15 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+img {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 </style>
 </head>
@@ -40,8 +49,8 @@ li a:hover {
 <!-- Header -->
 
 
-<header class="w3-display-container w3-content" style="max-width:3000px;">
-  <img class="w3-image" src="http://i.imgur.com/Cx30CwD.jpg" alt="Me" style="width:3000px;height:1300px;" />">
+<header class="w3-display-container w3-content" style="max-width:3000px;padding-bottom:5px">
+  <img class="w3-image" src="http://i.imgur.com/Cx30CwD.jpg" alt="Me" style="width:3000px;height:1300px;" />
   <div class="w3-display-middle w3-padding-xlarge w3-border w3-wide w3-text-light-grey w3-center">
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JAY DEVANNEY</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">JAY DEVANNEY</h5>
@@ -59,10 +68,12 @@ li a:hover {
   <li><a href="#portfolio">PORTFOLIO</a></li>
   <li><a href="#contact">STEAM</a></li>
 </ul>
-<br>
 <div class="image">
 
-     <center> <img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.0-9/13438797_10209323030815822_1624225692886004132_n.jpg?oh=d007bab1eb67c12ffa8164c3b1177081&oe=58F195BC" alt="" width="1000" height="500" /></center>
+    <img src="https://i.ytimg.com/vi/4kBLJK4FdfQ/maxresdefault.jpg" alt="" style="width:1100px;height:750px;" />
+    <h1 class="w3-right"> FACTS ABOUT MYSELF </h1>
+    <p class="w3-" style="vertical-align:10px;"> I play games fun times </p>
+
 </div>
 <!-- Page content -->
 <div class="w3-content w3-padding-xlarge w3-margin-top" id="portfolio">
@@ -74,7 +85,7 @@ li a:hover {
 
 
 
-      <link rel="stylesheet" href="jays page/style.css">
+      <link rel="stylesheet" href="style.css">
       
 
   </div>
