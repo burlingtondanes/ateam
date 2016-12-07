@@ -1,5 +1,19 @@
-span {
+body {
+	border: 4px solid white;
+	border-radius: 25px;
+	background-color:#b8efbf; /*not working*/
+}
+
+div.content {
+	width::100px;
+}
+
+span{
 	color:#c40d03;
+}
+
+table {
+	/*border: 2px solid black; */
 }
 
 .Chicken{
@@ -12,3 +26,4 @@ span {
 	background-color:#fff9a5; /*Provides background highlight*/ 
 	color:black; /*Changes font colour*/ 
 }
+
