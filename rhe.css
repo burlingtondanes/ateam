@@ -1,0 +1,14 @@
+span {
+	color:#c40d03;
+}
+
+.Chicken{
+	font-weight: bold; /*I'm a comment!*/
+	color:red; /*Changes all words related to chicken red*/ 
+	font-family:"Lucida Console",Monaco,monospace; /*Changes font*/ 
+}
+
+.Family{
+	background-color:#fff9a5; /*Provides background highlight*/ 
+	color:black; /*Changes font colour*/ 
+}
