@@ -14,6 +14,10 @@ span{
 
 table {
 	/*border: 2px solid black; */
+	position: absolute; 
+   bottom: 500px; 
+   right: 0px; 
+   width: 100%; 
 }
 
 .Chicken{
@@ -27,3 +31,10 @@ table {
 	color:black; /*Changes font colour*/ 
 }
 
+.HeaderImage{
+	  position: absolute;  
+   right: 0px; 
+   width: 100%; 
+   bottom: 500px;
+
+}
