@@ -4,10 +4,6 @@ body {
 	background-color:#b8efbf; /*not working*/
 }
 
-div.content {
-	width::100px;
-}
-
 span{
 	color:#c40d03;
 }
