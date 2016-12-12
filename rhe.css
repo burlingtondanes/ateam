@@ -1,7 +1,7 @@
 body {
 	border: 4px solid white;
 	border-radius: 25px;
-	background-color:#b8efbf; /*not working*/
+	background-color:#white; /*not working*/
 }
 
 span{
@@ -10,10 +10,6 @@ span{
 
 table {
 	/*border: 2px solid black; */
-	position: absolute; 
-   bottom: 500px; 
-   right: 0px; 
-   width: 100%; 
 }
 
 .Chicken{
@@ -28,9 +24,8 @@ table {
 }
 
 .HeaderImage{
-	  position: absolute;  
-   right: 0px; 
-   width: 100%; 
-   bottom: 500px;
-
+	background-image:url(Gallifrey.jpg);
+    background-position:center;
+    height: 100px;
+    width:100%;
 }
