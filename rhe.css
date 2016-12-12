@@ -1,7 +1,7 @@
 body {
 	border: 4px solid white;
 	border-radius: 25px;
-	background-color:#b8efbf; /*not working*/
+	background-color:#white; /*not working*/
 }
 
 span{
@@ -21,4 +21,11 @@ table {
 .Family{
 	background-color:#fff9a5; /*Provides background highlight*/ 
 	color:black; /*Changes font colour*/ 
+}
+
+.HeaderImage{
+	background-image:url(Gallifrey.jpg);
+    background-position:center;
+    height: 100px;
+    width:100%;
 }
