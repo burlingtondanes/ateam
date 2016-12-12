@@ -3,12 +3,12 @@
    width: 100%; /* for IE 6 */
 }
 
-p.ridge { 
+/* p.ridge { 
    position: absolute; 
    bottom: -250px; 
    right: 500px; 
    width: 100%; 
-}
+} */
 
 p.ridge {
     width: 850px;
