@@ -16,6 +16,10 @@
   color: blue;
 }
 
+#div5 {
+	color: black;
+}
+
 #Trees  {
   width:0;
 }
@@ -32,7 +36,50 @@
   width:0;
 }
 
-#Me  {
-  width:0;
+.Me  {
+  width:250px;
+  height:230px;
+  position:relative;
+  padding:0;
+  margin:0;
+  text-align:center;
+  }
+  
+.Me-image {
+cursor:pointer;
+position:relative;
+display:block;
 }
+
+.Me-text {
+position:absolute;
+top:0; right:0;
+bottom:0; left:0;
+width:250px;
+height:230px;
+text-align:center;
+background-color: rgba(0,0,0,0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+	   border-radius:50%;
+}
+
+.Me-text:hover{
+	    opacity: 1;      
+	}
+
+.Me-text h3{
+color: white;
+display: inline-table;
+vertical-align:middle;
+line-height:100%;            
+}
+
+
+
+
 
